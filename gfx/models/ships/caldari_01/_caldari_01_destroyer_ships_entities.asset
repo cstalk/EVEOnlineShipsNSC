@@ -1,4 +1,4 @@
-@destroyer_scale = 3
+@destroyer_scale = 7.0
 @destroyer_physical_scale = 0.5
 
 
@@ -52,7 +52,7 @@ entity = {
 		event = { time = 7.93 node = "part1_locator" particle = "ship_burn_particle" }
 		event = { time = 7.93 node = "part1_locator" particle = "ship_explosion_air_vent_particle" }
 	}
-	
+
 	scale = @destroyer_physical_scale
 
 	game_data = {
@@ -69,7 +69,7 @@ entity = {
 	pdxmesh = "caldari_01_cormorant_BOW_mesh"
 
 	scale = @destroyer_physical_scale
-		
+
 	game_data = {
 		size = @destroyer_scale
 	}
@@ -78,9 +78,9 @@ entity = {
 entity = {
 	name = "caldari_01_destroyer_bow_S3_entity"
 	pdxmesh = "caldari_01_cormorant_BOW_mesh"
-	
+
 	scale = @destroyer_physical_scale
-	
+
 	game_data = {
 		size = @destroyer_scale
 	}
@@ -91,7 +91,7 @@ entity = {
 	pdxmesh = "caldari_01_cormorant_BOW_mesh"
 
 	scale = @destroyer_physical_scale
-		
+
 	game_data = {
 		size = @destroyer_scale
 	}
@@ -99,27 +99,25 @@ entity = {
 
 #############################################################################
 ##################         	 STERN SECTIONS          ########################
-#############################################################################		
+#############################################################################
 entity = {
 	name = "caldari_01_destroyer_stern_M1_entity"
 	pdxmesh = "caldari_01_cormorant_STERN_mesh"
-	
+
 	scale = @destroyer_physical_scale
-		
+
 	game_data = {
 		size = @destroyer_scale
 	}
 }
-	
+
 entity = {
 	name = "caldari_01_destroyer_stern_S2_entity"
 	pdxmesh = "caldari_01_cormorant_STERN_mesh"
-	
+
 	scale = @destroyer_physical_scale
-		
+
 	game_data = {
 		size = @destroyer_scale
 	}
 }
-	
-

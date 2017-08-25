@@ -66,31 +66,31 @@ entity = {
 ################## BOW #############################
 entity = {
 	name = "amarr_01_Dreadnought_bow_L1M1S2_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 }
 
 entity = {
 	name = "amarr_01_Dreadnought_bow_L1S4_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 }
 
 entity = {
 	name = "amarr_01_Dreadnought_bow_L2_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 }
 
 entity = {
 	name = "amarr_01_Dreadnought_bow_M2S4_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 }
 
 entity = {
 	name = "amarr_01_Dreadnought_bow_M1S2SHB_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 
 
@@ -111,7 +111,7 @@ entity = {
 
 entity = {
 	name = "amarr_01_Dreadnought_bow_XL1_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 }
 
@@ -188,39 +188,39 @@ entity = {
 ################# MID2 ##########################
 entity = {
 	name = "amarr_01_Dreadnought_mid2_L1M4_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 
 }
 
 entity = {
 	name = "amarr_01_Dreadnought_mid2_L2M2_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 }
 
 entity = {
 	name = "amarr_01_Dreadnought_mid2_L2S4_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 }
 
 entity = {
 	name = "amarr_01_Dreadnought_mid2_L3_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 }
 
 entity = {
 	name = "amarr_01_Dreadnought_mid2_M4SHB_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 
 }
 
 entity = {
 	name = "amarr_01_Dreadnought_mid2_S4LHB_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 }
 
@@ -230,25 +230,25 @@ entity = {
 
 entity = {
 	name = "amarr_01_Dreadnought_stern_L1_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 }
 
 entity = {
 	name = "amarr_01_Dreadnought_stern_M1S2_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 
 }
 
 entity = {
 	name = "amarr_01_Dreadnought_stern_M2_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 }
 
 entity = {
 	name = "amarr_01_Dreadnought_stern_S4_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 }

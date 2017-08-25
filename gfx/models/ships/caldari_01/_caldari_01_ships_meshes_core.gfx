@@ -3,7 +3,7 @@
 
 #########################################################################
 #####																#####
-##W##							FRIGATES							##W##
+##W##							CORVETTES							##W##
 #####																#####
 #########################################################################
 
@@ -247,6 +247,550 @@ objectTypes = {
 			texture_diffuse = "caldari_01_raven_diffuse.dds"
 			texture_normal = "caldari_01_raven_normal.dds"
 			texture_specular = "caldari_01_raven_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#########################################################################
+#####																#####
+##W##						BATTLECRUISER							##W##
+#####																#####
+#########################################################################
+
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_ferox_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_ferox.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "ferox_hull"
+			index = 0
+			texture_diffuse = "caldari_01_ferox_diffuse.dds"
+			texture_normal = "caldari_01_ferox_normal.dds"
+			texture_specular = "caldari_01_ferox_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#STERN############
+
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_ferox_STERN_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_ferox.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "ferox_hull"
+			index = 0
+			texture_diffuse = "caldari_01_ferox_diffuse.dds"
+			texture_normal = "caldari_01_ferox_normal.dds"
+			texture_specular = "caldari_01_ferox_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#MID############
+
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_ferox_MID_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_ferox.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "ferox_hull"
+			index = 0
+			texture_diffuse = "caldari_01_ferox_diffuse.dds"
+			texture_normal = "caldari_01_ferox_normal.dds"
+			texture_specular = "caldari_01_ferox_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#BOW############
+
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_ferox_BOW_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_ferox.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "ferox_hull"
+			index = 0
+			texture_diffuse = "caldari_01_ferox_diffuse.dds"
+			texture_normal = "caldari_01_ferox_normal.dds"
+			texture_specular = "caldari_01_ferox_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#########################################################################
+#####																#####
+##W##							CARRIER								##W##
+#####																#####
+#########################################################################
+
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_chimera_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_chimera.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "chimera_hull_01"
+			index = 0
+			texture_diffuse = "caldari_01_chimera_01_diffuse.dds"
+			texture_normal = "caldari_01_chimera_01_normal.dds"
+			texture_specular = "caldari_01_chimera_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "chimera_hull_02"
+			index = 0
+			texture_diffuse = "caldari_01_chimera_02_diffuse.dds"
+			texture_normal = "caldari_01_chimera_02_normal.dds"
+			texture_specular = "caldari_01_chimera_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#STERN############
+
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_chimera_STERN_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_chimera.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "chimera_hull_01"
+			index = 0
+			texture_diffuse = "caldari_01_chimera_01_diffuse.dds"
+			texture_normal = "caldari_01_chimera_01_normal.dds"
+			texture_specular = "caldari_01_chimera_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "chimera_hull_02"
+			index = 0
+			texture_diffuse = "caldari_01_chimera_02_diffuse.dds"
+			texture_normal = "caldari_01_chimera_02_normal.dds"
+			texture_specular = "caldari_01_chimera_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#MID############
+
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_chimera_MID_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_chimera.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "chimera_hull_01"
+			index = 0
+			texture_diffuse = "caldari_01_chimera_01_diffuse.dds"
+			texture_normal = "caldari_01_chimera_01_normal.dds"
+			texture_specular = "caldari_01_chimera_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "chimera_hull_02"
+			index = 0
+			texture_diffuse = "caldari_01_chimera_02_diffuse.dds"
+			texture_normal = "caldari_01_chimera_02_normal.dds"
+			texture_specular = "caldari_01_chimera_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#BOW############
+
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_chimera_BOW_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_chimera.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "chimera_hull_01"
+			index = 0
+			texture_diffuse = "caldari_01_chimera_01_diffuse.dds"
+			texture_normal = "caldari_01_chimera_01_normal.dds"
+			texture_specular = "caldari_01_chimera_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "chimera_hull_02"
+			index = 0
+			texture_diffuse = "caldari_01_chimera_02_diffuse.dds"
+			texture_normal = "caldari_01_chimera_02_normal.dds"
+			texture_specular = "caldari_01_chimera_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#########################################################################
+#####																#####
+##W##							DREADNOUGHT							##W##
+#####																#####
+#########################################################################
+
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_phoenix_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_phoenix.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "phoenix_hull_01"
+			index = 0
+			texture_diffuse = "caldari_01_phoenix_01_diffuse.dds"
+			texture_normal = "caldari_01_phoenix_01_normal.dds"
+			texture_specular = "caldari_01_phoenix_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "phoenix_hull_02"
+			index = 0
+			texture_diffuse = "caldari_01_phoenix_02_diffuse.dds"
+			texture_normal = "caldari_01_phoenix_02_normal.dds"
+			texture_specular = "caldari_01_phoenix_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#STERN############
+
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_phoenix_STERN_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_phoenix.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "phoenix_hull_01"
+			index = 0
+			texture_diffuse = "caldari_01_phoenix_01_diffuse.dds"
+			texture_normal = "caldari_01_phoenix_01_normal.dds"
+			texture_specular = "caldari_01_phoenix_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "phoenix_hull_02"
+			index = 0
+			texture_diffuse = "caldari_01_phoenix_02_diffuse.dds"
+			texture_normal = "caldari_01_phoenix_02_normal.dds"
+			texture_specular = "caldari_01_phoenix_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#MID############
+
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_phoenix_MID_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_phoenix.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "phoenix_hull_01"
+			index = 0
+			texture_diffuse = "caldari_01_phoenix_01_diffuse.dds"
+			texture_normal = "caldari_01_phoenix_01_normal.dds"
+			texture_specular = "caldari_01_phoenix_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "phoenix_hull_02"
+			index = 0
+			texture_diffuse = "caldari_01_phoenix_02_diffuse.dds"
+			texture_normal = "caldari_01_phoenix_02_normal.dds"
+			texture_specular = "caldari_01_phoenix_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#BOW############
+
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_phoenix_BOW_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_phoenix.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "phoenix_hull_01"
+			index = 0
+			texture_diffuse = "caldari_01_phoenix_01_diffuse.dds"
+			texture_normal = "caldari_01_phoenix_01_normal.dds"
+			texture_specular = "caldari_01_phoenix_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "phoenix_hull_02"
+			index = 0
+			texture_diffuse = "caldari_01_phoenix_02_diffuse.dds"
+			texture_normal = "caldari_01_phoenix_02_normal.dds"
+			texture_specular = "caldari_01_phoenix_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#########################################################################
+#####																#####
+##W##						SUPER CARRIER						##W##
+#####																#####
+#########################################################################
+
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_wyvern_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_wyvern.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "wyvern_hull_01"
+			index = 0
+			texture_diffuse = "caldari_01_wyvern_01_diffuse.dds"
+			texture_normal = "caldari_01_wyvern_01_normal.dds"
+			texture_specular = "caldari_01_wyvern_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "wyvern_hull_02"
+			index = 0
+			texture_diffuse = "caldari_01_wyvern_02_diffuse.dds"
+			texture_normal = "caldari_01_wyvern_02_normal.dds"
+			texture_specular = "caldari_01_wyvern_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#STERN############
+
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_wyvern_STERN_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_wyvern.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "wyvern_hull_01"
+			index = 0
+			texture_diffuse = "caldari_01_wyvern_01_diffuse.dds"
+			texture_normal = "caldari_01_wyvern_01_normal.dds"
+			texture_specular = "caldari_01_wyvern_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "wyvern_hull_02"
+			index = 0
+			texture_diffuse = "caldari_01_wyvern_02_diffuse.dds"
+			texture_normal = "caldari_01_wyvern_02_normal.dds"
+			texture_specular = "caldari_01_wyvern_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#MID############
+
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_wyvern_MID_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_wyvern.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "wyvern_hull_01"
+			index = 0
+			texture_diffuse = "caldari_01_wyvern_01_diffuse.dds"
+			texture_normal = "caldari_01_wyvern_01_normal.dds"
+			texture_specular = "caldari_01_wyvern_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "wyvern_hull_02"
+			index = 0
+			texture_diffuse = "caldari_01_wyvern_02_diffuse.dds"
+			texture_normal = "caldari_01_wyvern_02_normal.dds"
+			texture_specular = "caldari_01_wyvern_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#BOW############
+
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_wyvern_BOW_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_wyvern.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "wyvern_hull_01"
+			index = 0
+			texture_diffuse = "caldari_01_wyvern_01_diffuse.dds"
+			texture_normal = "caldari_01_wyvern_01_normal.dds"
+			texture_specular = "caldari_01_wyvern_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "wyvern_hull_02"
+			index = 0
+			texture_diffuse = "caldari_01_wyvern_02_diffuse.dds"
+			texture_normal = "caldari_01_wyvern_02_normal.dds"
+			texture_specular = "caldari_01_wyvern_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#########################################################################
+#####																#####
+##W##							FLAGSHIP								##W##
+#####																#####
+#########################################################################
+
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_leviathan_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_leviathan.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "leviathan_hull_01"
+			index = 0
+			texture_diffuse = "caldari_01_leviathan_01_diffuse.dds"
+			texture_normal = "caldari_01_leviathan_01_normal.dds"
+			texture_specular = "caldari_01_leviathan_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "leviathan_hull_02"
+			index = 0
+			texture_diffuse = "caldari_01_leviathan_02_diffuse.dds"
+			texture_normal = "caldari_01_leviathan_02_normal.dds"
+			texture_specular = "caldari_01_leviathan_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#STERN############
+
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_leviathan_STERN_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_leviathan.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "leviathan_hull_01"
+			index = 0
+			texture_diffuse = "caldari_01_leviathan_01_diffuse.dds"
+			texture_normal = "caldari_01_leviathan_01_normal.dds"
+			texture_specular = "caldari_01_leviathan_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "leviathan_hull_02"
+			index = 0
+			texture_diffuse = "caldari_01_leviathan_02_diffuse.dds"
+			texture_normal = "caldari_01_leviathan_02_normal.dds"
+			texture_specular = "caldari_01_leviathan_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#MID############
+
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_leviathan_MID_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_leviathan.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "leviathan_hull_01"
+			index = 0
+			texture_diffuse = "caldari_01_leviathan_01_diffuse.dds"
+			texture_normal = "caldari_01_leviathan_01_normal.dds"
+			texture_specular = "caldari_01_leviathan_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "leviathan_hull_02"
+			index = 0
+			texture_diffuse = "caldari_01_leviathan_02_diffuse.dds"
+			texture_normal = "caldari_01_leviathan_02_normal.dds"
+			texture_specular = "caldari_01_leviathan_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#BOW############
+
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_leviathan_BOW_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_leviathan.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "leviathan_hull_01"
+			index = 0
+			texture_diffuse = "caldari_01_leviathan_01_diffuse.dds"
+			texture_normal = "caldari_01_leviathan_01_normal.dds"
+			texture_specular = "caldari_01_leviathan_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "leviathan_hull_02"
+			index = 0
+			texture_diffuse = "caldari_01_leviathan_02_diffuse.dds"
+			texture_normal = "caldari_01_leviathan_02_normal.dds"
+			texture_specular = "caldari_01_leviathan_02_specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}

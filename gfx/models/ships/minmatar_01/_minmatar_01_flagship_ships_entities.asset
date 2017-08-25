@@ -66,28 +66,28 @@ entity = {
 #################### BOW #############################
 entity = {
 	name = "minmatar_01_Flagship_bow_L1M1S2_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 }
 
 entity = {
 	name = "minmatar_01_Flagship_bow_L1S4_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 }
 
 entity = {
 	name = "minmatar_01_Flagship_bow_L2_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 }
 
 entity = {
 	name = "minmatar_01_Flagship_bow_M2S4_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 }
 
 entity = {
 	name = "minmatar_01_Flagship_bow_M1S2SHB_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 	#TEMP LOCATOR REPLACE IN SCENE
 	locator = {
@@ -100,22 +100,22 @@ entity = {
 
 entity = {
 	name = "minmatar_01_Flagship_bow_M3S2_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 }
 
 entity = {
 	name = "minmatar_01_Flagship_bow_XL1_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 }
 
 entity = {
 	name = "minmatar_01_Flagship_bow_XL2_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 }
 
 entity = {
 	name = "minmatar_01_Flagship_bow_XL3_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 }
 
 
@@ -363,28 +363,28 @@ entity = {
 ######################## MID2 #######################################
 entity = {
 	name = "minmatar_01_Flagship_mid2_L1M4_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 }
 
 entity = {
 	name = "minmatar_01_Flagship_mid2_L2M2_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 }
 
 entity = {
 	name = "minmatar_01_Flagship_mid2_L2S4_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 }
 
 entity = {
 	name = "minmatar_01_Flagship_mid2_L3_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 }
 
 entity = {
 	name = "minmatar_01_Flagship_mid2_M4SHB_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 	locator = {
 		name = "strike_craft_locator_01"
 		rotation = { -90 0 0 }
@@ -397,7 +397,7 @@ entity = {
 
 entity = {
 	name = "minmatar_01_Flagship_mid2_S4LHB_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 	locator = {
 		name = "strike_craft_locator_01"
@@ -412,27 +412,27 @@ entity = {
 ######################### MID3 ##############################
 entity = {
 	name = "minmatar_01_Flagship_mid3_L1M4_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 }
 
 entity = {
 	name = "minmatar_01_Flagship_mid3_L2M2_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 }
 
 entity = {
 	name = "minmatar_01_Flagship_mid3_L2S4_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 }
 
 entity = {
 	name = "minmatar_01_Flagship_mid3_L3_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 }
 
 entity = {
 	name = "minmatar_01_Flagship_mid3_M4SHB_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 	locator = {
 		name = "strike_craft_locator_01"
@@ -446,7 +446,7 @@ entity = {
 
 entity = {
 	name = "minmatar_01_Flagship_mid3_S4LHB_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 
 	locator = {
 		name = "strike_craft_locator_01"
@@ -462,20 +462,20 @@ entity = {
 
 entity = {
 	name = "minmatar_01_Flagship_stern_L1_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 }
 
 entity = {
 	name = "minmatar_01_Flagship_stern_M1S2_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 }
 
 entity = {
 	name = "minmatar_01_Flagship_stern_M2_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 }
 
 entity = {
 	name = "minmatar_01_Flagship_stern_S4_entity"
-	pdxmesh = ""
+	pdxmesh = "empty_mesh"
 }

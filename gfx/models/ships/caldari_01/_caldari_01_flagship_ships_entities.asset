@@ -1,6 +1,6 @@
 @Flagship_scale = 30
 
-@Flagship_physical_scale = 0.5
+@Flagship_physical_scale = 1.0
 
 
 ##################         	 FLAGSHIP           ########################
@@ -8,7 +8,7 @@
 # FRAME
 
 entity = {
-	name = "amarr_01_Flagship_entity"
+	name = "caldari_01_Flagship_entity"
 	pdxmesh = "arthropoid_01_flagship_frame_mesh"
 
 	#locator = { name = "part1"	position = { 0 0 -10.0 } rotation = { 0 0 0 } }
@@ -65,28 +65,28 @@ entity = {
 
 #################### BOW #############################
 entity = {
-	name = "amarr_01_Flagship_bow_L1M1S2_entity"
+	name = "caldari_01_Flagship_bow_L1M1S2_entity"
 	pdxmesh = "empty_mesh"
 
 }
 
 entity = {
-	name = "amarr_01_Flagship_bow_L1S4_entity"
+	name = "caldari_01_Flagship_bow_L1S4_entity"
 	pdxmesh = "empty_mesh"
 }
 
 entity = {
-	name = "amarr_01_Flagship_bow_L2_entity"
+	name = "caldari_01_Flagship_bow_L2_entity"
 	pdxmesh = "empty_mesh"
 }
 
 entity = {
-	name = "amarr_01_Flagship_bow_M2S4_entity"
+	name = "caldari_01_Flagship_bow_M2S4_entity"
 	pdxmesh = "empty_mesh"
 }
 
 entity = {
-	name = "amarr_01_Flagship_bow_M1S2SHB_entity"
+	name = "caldari_01_Flagship_bow_M1S2SHB_entity"
 	pdxmesh = "empty_mesh"
 
 	#TEMP LOCATOR REPLACE IN SCENE
@@ -99,30 +99,30 @@ entity = {
 }
 
 entity = {
-	name = "amarr_01_Flagship_bow_M3S2_entity"
+	name = "caldari_01_Flagship_bow_M3S2_entity"
 	pdxmesh = "empty_mesh"
 }
 
 entity = {
-	name = "amarr_01_Flagship_bow_XL1_entity"
+	name = "caldari_01_Flagship_bow_XL1_entity"
 	pdxmesh = "empty_mesh"
 }
 
 entity = {
-	name = "amarr_01_Flagship_bow_XL2_entity"
+	name = "caldari_01_Flagship_bow_XL2_entity"
 	pdxmesh = "empty_mesh"
 }
 
 entity = {
-	name = "amarr_01_Flagship_bow_XL3_entity"
+	name = "caldari_01_Flagship_bow_XL3_entity"
 	pdxmesh = "empty_mesh"
 }
 
 
 ######################## MID1 ################################
 entity = {
-	name = "amarr_01_Flagship_mid1_L1M4_entity"
-	pdxmesh = "amarr_01_avatar_MID_mesh"
+	name = "caldari_01_Flagship_mid1_L1M4_entity"
+	pdxmesh = "caldari_01_leviathan_MID_mesh"
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -162,8 +162,8 @@ entity = {
 }
 
 entity = {
-	name = "amarr_01_Flagship_mid1_L2M2_entity"
-	pdxmesh = "amarr_01_avatar_MID_mesh"
+	name = "caldari_01_Flagship_mid1_L2M2_entity"
+	pdxmesh = "caldari_01_leviathan_MID_mesh"
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -199,8 +199,8 @@ entity = {
 }
 
 entity = {
-	name = "amarr_01_Flagship_mid1_L2S4_entity"
-	pdxmesh = "amarr_01_avatar_MID_mesh"
+	name = "caldari_01_Flagship_mid1_L2S4_entity"
+	pdxmesh = "caldari_01_leviathan_MID_mesh"
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -236,8 +236,8 @@ entity = {
 }
 
 entity = {
-	name = "amarr_01_Flagship_mid1_L3_entity"
-	pdxmesh = "amarr_01_avatar_MID_mesh"
+	name = "caldari_01_Flagship_mid1_L3_entity"
+	pdxmesh = "caldari_01_leviathan_MID_mesh"
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -273,8 +273,8 @@ entity = {
 }
 
 entity = {
-	name = "amarr_01_Flagship_mid1_M4SHB_entity"
-	pdxmesh = "amarr_01_avatar_MID_mesh"
+	name = "caldari_01_Flagship_mid1_M4SHB_entity"
+	pdxmesh = "caldari_01_leviathan_MID_mesh"
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -317,8 +317,8 @@ entity = {
 }
 
 entity = {
-	name = "amarr_01_Flagship_mid1_S4LHB_entity"
-	pdxmesh = "amarr_01_avatar_MID_mesh"
+	name = "caldari_01_Flagship_mid1_S4LHB_entity"
+	pdxmesh = "caldari_01_leviathan_MID_mesh"
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -362,28 +362,28 @@ entity = {
 
 ######################## MID2 #######################################
 entity = {
-	name = "amarr_01_Flagship_mid2_L1M4_entity"
+	name = "caldari_01_Flagship_mid2_L1M4_entity"
 	pdxmesh = "empty_mesh"
 
 }
 
 entity = {
-	name = "amarr_01_Flagship_mid2_L2M2_entity"
+	name = "caldari_01_Flagship_mid2_L2M2_entity"
 	pdxmesh = "empty_mesh"
 }
 
 entity = {
-	name = "amarr_01_Flagship_mid2_L2S4_entity"
+	name = "caldari_01_Flagship_mid2_L2S4_entity"
 	pdxmesh = "empty_mesh"
 }
 
 entity = {
-	name = "amarr_01_Flagship_mid2_L3_entity"
+	name = "caldari_01_Flagship_mid2_L3_entity"
 	pdxmesh = "empty_mesh"
 }
 
 entity = {
-	name = "amarr_01_Flagship_mid2_M4SHB_entity"
+	name = "caldari_01_Flagship_mid2_M4SHB_entity"
 	pdxmesh = "empty_mesh"
 	locator = {
 		name = "strike_craft_locator_01"
@@ -396,7 +396,7 @@ entity = {
 }
 
 entity = {
-	name = "amarr_01_Flagship_mid2_S4LHB_entity"
+	name = "caldari_01_Flagship_mid2_S4LHB_entity"
 	pdxmesh = "empty_mesh"
 
 	locator = {
@@ -411,27 +411,27 @@ entity = {
 
 ######################### MID3 ##############################
 entity = {
-	name = "amarr_01_Flagship_mid3_L1M4_entity"
+	name = "caldari_01_Flagship_mid3_L1M4_entity"
 	pdxmesh = "empty_mesh"
 }
 
 entity = {
-	name = "amarr_01_Flagship_mid3_L2M2_entity"
+	name = "caldari_01_Flagship_mid3_L2M2_entity"
 	pdxmesh = "empty_mesh"
 }
 
 entity = {
-	name = "amarr_01_Flagship_mid3_L2S4_entity"
+	name = "caldari_01_Flagship_mid3_L2S4_entity"
 	pdxmesh = "empty_mesh"
 }
 
 entity = {
-	name = "amarr_01_Flagship_mid3_L3_entity"
+	name = "caldari_01_Flagship_mid3_L3_entity"
 	pdxmesh = "empty_mesh"
 }
 
 entity = {
-	name = "amarr_01_Flagship_mid3_M4SHB_entity"
+	name = "caldari_01_Flagship_mid3_M4SHB_entity"
 	pdxmesh = "empty_mesh"
 
 	locator = {
@@ -445,7 +445,7 @@ entity = {
 }
 
 entity = {
-	name = "amarr_01_Flagship_mid3_S4LHB_entity"
+	name = "caldari_01_Flagship_mid3_S4LHB_entity"
 	pdxmesh = "empty_mesh"
 
 	locator = {
@@ -461,21 +461,21 @@ entity = {
 ############################# STERN #######################################
 
 entity = {
-	name = "amarr_01_Flagship_stern_L1_entity"
+	name = "caldari_01_Flagship_stern_L1_entity"
 	pdxmesh = "empty_mesh"
 }
 
 entity = {
-	name = "amarr_01_Flagship_stern_M1S2_entity"
+	name = "caldari_01_Flagship_stern_M1S2_entity"
 	pdxmesh = "empty_mesh"
 }
 
 entity = {
-	name = "amarr_01_Flagship_stern_M2_entity"
+	name = "caldari_01_Flagship_stern_M2_entity"
 	pdxmesh = "empty_mesh"
 }
 
 entity = {
-	name = "amarr_01_Flagship_stern_S4_entity"
+	name = "caldari_01_Flagship_stern_S4_entity"
 	pdxmesh = "empty_mesh"
 }
