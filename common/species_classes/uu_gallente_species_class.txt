@@ -1,0 +1,7 @@
+GAL = {
+    portraits = {
+        "gallente"
+    }   
+    graphical_culture = gallente_01
+    move_pop_sound_effect = "moving_pop_confirmation"
+}

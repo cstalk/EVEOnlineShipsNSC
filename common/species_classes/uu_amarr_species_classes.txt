@@ -1,0 +1,7 @@
+AMR = {
+    portraits = {
+		"amarr"
+    }   
+    graphical_culture = amarr_01
+    move_pop_sound_effect = "moving_pop_confirmation"
+}

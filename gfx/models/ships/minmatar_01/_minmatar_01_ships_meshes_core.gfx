@@ -1,0 +1,1013 @@
+@invis_scale = 0.1
+@main_scale = 0.2
+
+#########################################################################
+#####																#####
+##W##							FRIGATES							##W##
+#####																#####
+#########################################################################
+
+############## SCIENCE ##############
+
+objectTypes = {
+
+    pdxmesh = {
+        name = "minmatar_01_probe_mesh"
+        file = "gfx/models/ships/minmatar_01/minmatar_01_probe.mesh"
+        scale = @main_scale
+
+		meshsettings = {
+			name = "probe_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_probe_diffuse.dds"
+			texture_normal = "minmatar_01_probe_normal.dds"
+			texture_specular = "minmatar_01_probe_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "probe_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_probe_diffuse.dds"
+			texture_normal = "minmatar_01_probe_normal.dds"
+			texture_specular = "minmatar_01_probe_specular.dds"
+			shader = "PdxMeshClouds"
+		}
+	}
+}
+
+############## MILITARY ##############
+
+objectTypes = {
+
+    pdxmesh = {
+        name = "minmatar_01_rifter_mesh"
+        file = "gfx/models/ships/minmatar_01/minmatar_01_rifter.mesh"
+        scale = @main_scale
+
+		meshsettings = {
+			name = "rifter_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_rifter_diffuse.dds"
+			texture_normal = "minmatar_01_rifter_normal.dds"
+			texture_specular = "minmatar_01_rifter_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#########################################################################
+#####																#####
+##W##							DESTROYER							##W##
+#####																#####
+#########################################################################
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_thrasher_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_thrasher.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "thrasher_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_thrasther_diffuse.dds"
+			texture_normal = "minmatar_01_thrasther_normal.dds"
+			texture_specular = "minmatar_01_thrasther_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "thrasher_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_thrasther_diffuse.dds"
+			texture_normal = "minmatar_01_thrasther_normal.dds"
+			texture_specular = "minmatar_01_thrasther_specular.dds"
+			shader = "PdxMeshClouds"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_thrasher_STERN_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_thrasher.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "thrasher_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_thrasther_diffuse.dds"
+			texture_normal = "minmatar_01_thrasther_normal.dds"
+			texture_specular = "minmatar_01_thrasther_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "thrasher_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_thrasther_diffuse.dds"
+			texture_normal = "minmatar_01_thrasther_normal.dds"
+			texture_specular = "minmatar_01_thrasther_specular.dds"
+			shader = "PdxMeshTerraAlphaBlend"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_thrasher_BOW_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_thrasher.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "thrasher_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_thrasther_diffuse.dds"
+			texture_normal = "minmatar_01_thrasther_normal.dds"
+			texture_specular = "minmatar_01_thrasther_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "thrasher_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_thrasther_diffuse.dds"
+			texture_normal = "minmatar_01_thrasther_normal.dds"
+			texture_specular = "minmatar_01_thrasther_specular.dds"
+			shader = "PdxMeshClouds"
+		}
+	}
+}
+
+#########################################################################
+#####																#####
+##W##							CRUISER								##W##
+#####																#####
+#########################################################################
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_stabber_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_stabber.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "stabber_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_stabber_diffuse.dds"
+			texture_normal = "minmatar_01_stabber_normal.dds"
+			texture_specular = "minmatar_01_stabber_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "stabber_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_stabber_diffuse.dds"
+			texture_normal = "minmatar_01_stabber_normal.dds"
+			texture_specular = "minmatar_01_stabber_specular.dds"
+			shader = "PdxMeshClouds"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_stabber_STERN_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_stabber.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "stabber_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_stabber_diffuse.dds"
+			texture_normal = "minmatar_01_stabber_normal.dds"
+			texture_specular = "minmatar_01_stabber_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "stabber_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_stabber_diffuse.dds"
+			texture_normal = "minmatar_01_stabber_normal.dds"
+			texture_specular = "minmatar_01_stabber_specular.dds"
+			shader = "PdxMeshTerraAlphaBlend"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_stabber_MID_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_stabber.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "stabber_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_stabber_diffuse.dds"
+			texture_normal = "minmatar_01_stabber_normal.dds"
+			texture_specular = "minmatar_01_stabber_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "stabber_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_stabber_diffuse.dds"
+			texture_normal = "minmatar_01_stabber_normal.dds"
+			texture_specular = "minmatar_01_stabber_specular.dds"
+			shader = "PdxMeshTerraAlphaBlend"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_stabber_BOW_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_stabber.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "stabber_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_stabber_diffuse.dds"
+			texture_normal = "minmatar_01_stabber_normal.dds"
+			texture_specular = "minmatar_01_stabber_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "stabber_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_stabber_diffuse.dds"
+			texture_normal = "minmatar_01_stabber_normal.dds"
+			texture_specular = "minmatar_01_stabber_specular.dds"
+			shader = "PdxMeshClouds"
+		}
+	}
+}
+
+
+#########################################################################
+#####																#####
+##W##							STRIKECRUISER								##W##
+#####																#####
+#########################################################################
+
+objectTypes = {
+	pdxmesh = {
+		name = "cyclone_01_prophecy_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_cyclone.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "cyclone_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_cyclone_diffuse.dds"
+			texture_normal = "minmatar_01_cyclone_normal.dds"
+			texture_specular = "minmatar_01_cyclone_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_cyclone_STERN_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_cyclone.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "cyclone_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_cyclone_diffuse.dds"
+			texture_normal = "minmatar_01_cyclone_normal.dds"
+			texture_specular = "minmatar_01_cyclone_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_cyclone_MID_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_cyclone.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "cyclone_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_cyclone_diffuse.dds"
+			texture_normal = "minmatar_01_cyclone_normal.dds"
+			texture_specular = "minmatar_01_cyclone_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_cyclone_BOW_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_cyclone.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "cyclone_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_cyclone_diffuse.dds"
+			texture_normal = "minmatar_01_cyclone_normal.dds"
+			texture_specular = "minmatar_01_cyclone_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+#########################################################################
+#####																#####
+##W##						BATTLESHIP								##W##
+#####																#####
+#########################################################################
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_typhoon_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_typhoon.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "typhoon_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_typhoon_diffuse.dds"
+			texture_normal = "minmatar_01_typhoon_normal.dds"
+			texture_specular = "minmatar_01_typhoon_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "typhoon_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_typhoon_diffuse.dds"
+			texture_normal = "minmatar_01_typhoon_normal.dds"
+			texture_specular = "minmatar_01_typhoon_specular.dds"
+			shader = "PdxMeshClouds"
+		}
+	}
+}
+
+#STERN############
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_typhoon_STERN_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_typhoon.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "typhoon_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_typhoon_diffuse.dds"
+			texture_normal = "minmatar_01_typhoon_normal.dds"
+			texture_specular = "minmatar_01_typhoon_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "typhoon_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_typhoon_diffuse.dds"
+			texture_normal = "minmatar_01_typhoon_normal.dds"
+			texture_specular = "minmatar_01_typhoon_specular.dds"
+			shader = "PdxMeshTerraAlphaBlend"
+		}
+	}
+}
+
+#MID############
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_typhoon_MID_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_typhoon.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "typhoon_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_typhoon_diffuse.dds"
+			texture_normal = "minmatar_01_typhoon_normal.dds"
+			texture_specular = "minmatar_01_typhoon_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "typhoon_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_typhoon_diffuse.dds"
+			texture_normal = "minmatar_01_typhoon_normal.dds"
+			texture_specular = "minmatar_01_typhoon_specular.dds"
+			shader = "PdxMeshTerraAlphaBlend"
+		}
+	}
+}
+
+#BOW############
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_typhoon_BOW_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_typhoon.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "typhoon_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_typhoon_diffuse.dds"
+			texture_normal = "minmatar_01_typhoon_normal.dds"
+			texture_specular = "minmatar_01_typhoon_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "typhoon_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_typhoon_diffuse.dds"
+			texture_normal = "minmatar_01_typhoon_normal.dds"
+			texture_specular = "minmatar_01_typhoon_specular.dds"
+			shader = "PdxMeshClouds"
+		}
+	}
+}
+
+#########################################################################
+#####																#####
+##W##							CARRIER								##W##
+#####																#####
+#########################################################################
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_nidhoggur_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_nidhoggur.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "nidhoggur_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_nidhoggur_diffuse.dds"
+			texture_normal = "minmatar_01_nidhoggur_normal.dds"
+			texture_specular = "minmatar_01_nidhoggur_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "nidhoggur_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_nidhoggur_diffuse.dds"
+			texture_normal = "minmatar_01_nidhoggur_normal.dds"
+			texture_specular = "minmatar_01_nidhoggur_specular.dds"
+			shader = "PdxMeshClouds"
+		}
+	}
+}
+
+#STERN############
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_nidhoggur_STERN_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_nidhoggur.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "nidhoggur_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_nidhoggur_diffuse.dds"
+			texture_normal = "minmatar_01_nidhoggur_normal.dds"
+			texture_specular = "minmatar_01_nidhoggur_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "nidhoggur_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_nidhoggur_diffuse.dds"
+			texture_normal = "minmatar_01_nidhoggur_normal.dds"
+			texture_specular = "minmatar_01_nidhoggur_specular.dds"
+			shader = "PdxMeshTerraAlphaBlend"
+		}
+	}
+}
+
+#MID############
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_nidhoggur_MID_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_nidhoggur.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "nidhoggur_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_nidhoggur_diffuse.dds"
+			texture_normal = "minmatar_01_nidhoggur_normal.dds"
+			texture_specular = "minmatar_01_nidhoggur_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "nidhoggur_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_nidhoggur_diffuse.dds"
+			texture_normal = "minmatar_01_nidhoggur_normal.dds"
+			texture_specular = "minmatar_01_nidhoggur_specular.dds"
+			shader = "PdxMeshTerraAlphaBlend"
+		}
+	}
+}
+
+#BOW############
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_nidhoggur_BOW_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_nidhoggur.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "nidhoggur_hull"
+			index = 0
+			texture_diffuse = "minmatar_01_nidhoggur_diffuse.dds"
+			texture_normal = "minmatar_01_nidhoggur_normal.dds"
+			texture_specular = "minmatar_01_nidhoggur_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "nidhoggur_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_nidhoggur_diffuse.dds"
+			texture_normal = "minmatar_01_nidhoggur_normal.dds"
+			texture_specular = "minmatar_01_nidhoggur_specular.dds"
+			shader = "PdxMeshClouds"
+		}
+	}
+}
+
+#########################################################################
+#####																#####
+##W##							DREADNOUGHT							##W##
+#####																#####
+#########################################################################
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_naglfar_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_naglfar.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "naglfar_hull_01"
+			index = 0
+			texture_diffuse = "minmatar_01_naglfar_01_diffuse.dds"
+			texture_normal = "minmatar_01_naglfar_01_normal.dds"
+			texture_specular = "minmatar_01_naglfar_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "naglfar_hull_02"
+			index = 0
+			texture_diffuse = "minmatar_01_naglfar_02_diffuse.dds"
+			texture_normal = "minmatar_01_naglfar_02_normal.dds"
+			texture_specular = "minmatar_01_naglfar_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "naglfar_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_naglfar_01_diffuse.dds"
+			texture_normal = "minmatar_01_naglfar_01_normal.dds"
+			texture_specular = "minmatar_01_naglfar_01_specular.dds"
+			shader = "PdxMeshClouds"
+		}
+	}
+}
+
+#STERN############
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_naglfar_STERN_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_naglfar.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "naglfar_hull_01"
+			index = 0
+			texture_diffuse = "minmatar_01_naglfar_01_diffuse.dds"
+			texture_normal = "minmatar_01_naglfar_01_normal.dds"
+			texture_specular = "minmatar_01_naglfar_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "naglfar_hull_02"
+			index = 0
+			texture_diffuse = "minmatar_01_naglfar_02_diffuse.dds"
+			texture_normal = "minmatar_01_naglfar_02_normal.dds"
+			texture_specular = "minmatar_01_naglfar_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "naglfar_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_naglfar_01_diffuse.dds"
+			texture_normal = "minmatar_01_naglfar_01_normal.dds"
+			texture_specular = "minmatar_01_naglfar_01_specular.dds"
+			shader = "PdxMeshTerraAlphaBlend"
+		}
+	}
+}
+
+#MID############
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_naglfar_MID_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_naglfar.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "naglfar_hull_01"
+			index = 0
+			texture_diffuse = "minmatar_01_naglfar_01_diffuse.dds"
+			texture_normal = "minmatar_01_naglfar_01_normal.dds"
+			texture_specular = "minmatar_01_naglfar_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "naglfar_hull_02"
+			index = 0
+			texture_diffuse = "minmatar_01_naglfar_02_diffuse.dds"
+			texture_normal = "minmatar_01_naglfar_02_normal.dds"
+			texture_specular = "minmatar_01_naglfar_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "naglfar_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_naglfar_01_diffuse.dds"
+			texture_normal = "minmatar_01_naglfar_01_normal.dds"
+			texture_specular = "minmatar_01_naglfar_01_specular.dds"
+			shader = "PdxMeshTerraAlphaBlend"
+		}
+	}
+}
+
+#BOW############
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_naglfar_BOW_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_naglfar.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "naglfar_hull_01"
+			index = 0
+			texture_diffuse = "minmatar_01_naglfar_01_diffuse.dds"
+			texture_normal = "minmatar_01_naglfar_01_normal.dds"
+			texture_specular = "minmatar_01_naglfar_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "naglfar_hull_02"
+			index = 0
+			texture_diffuse = "minmatar_01_naglfar_02_diffuse.dds"
+			texture_normal = "minmatar_01_naglfar_02_normal.dds"
+			texture_specular = "minmatar_01_naglfar_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "naglfar_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_naglfar_01_diffuse.dds"
+			texture_normal = "minmatar_01_naglfar_01_normal.dds"
+			texture_specular = "minmatar_01_naglfar_01_specular.dds"
+			shader = "PdxMeshClouds"
+		}
+	}
+}
+
+#########################################################################
+#####																#####
+##W##						MOTHER	SHIP							##W##
+#####																#####
+#########################################################################
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_hel_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_hel.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "hel_hull_01"
+			index = 0
+			texture_diffuse = "minmatar_01_hel_01_diffuse.dds"
+			texture_normal = "minmatar_01_hel_01_normal.dds"
+			texture_specular = "minmatar_01_hel_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "hel_hull_02"
+			index = 0
+			texture_diffuse = "minmatar_01_hel_02_diffuse.dds"
+			texture_normal = "minmatar_01_hel_02_normal.dds"
+			texture_specular = "minmatar_01_hel_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "hel_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_hel_01_diffuse.dds"
+			texture_normal = "minmatar_01_hel_01_normal.dds"
+			texture_specular = "minmatar_01_hel_01_specular.dds"
+			shader = "PdxMeshClouds"
+		}
+	}
+}
+
+#STERN############
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_hel_STERN_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_hel.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "hel_hull_01"
+			index = 0
+			texture_diffuse = "minmatar_01_hel_01_diffuse.dds"
+			texture_normal = "minmatar_01_hel_01_normal.dds"
+			texture_specular = "minmatar_01_hel_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "hel_hull_02"
+			index = 0
+			texture_diffuse = "minmatar_01_hel_02_diffuse.dds"
+			texture_normal = "minmatar_01_hel_02_normal.dds"
+			texture_specular = "minmatar_01_hel_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "hel_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_hel_01_diffuse.dds"
+			texture_normal = "minmatar_01_hel_01_normal.dds"
+			texture_specular = "minmatar_01_hel_01_specular.dds"
+			shader = "PdxMeshTerraAlphaBlend"
+		}
+	}
+}
+
+#MID############
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_hel_MID_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_hel.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "hel_hull_01"
+			index = 0
+			texture_diffuse = "minmatar_01_hel_01_diffuse.dds"
+			texture_normal = "minmatar_01_hel_01_normal.dds"
+			texture_specular = "minmatar_01_hel_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "hel_hull_02"
+			index = 0
+			texture_diffuse = "minmatar_01_hel_02_diffuse.dds"
+			texture_normal = "minmatar_01_hel_02_normal.dds"
+			texture_specular = "minmatar_01_hel_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "hel_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_hel_01_diffuse.dds"
+			texture_normal = "minmatar_01_hel_01_normal.dds"
+			texture_specular = "minmatar_01_hel_01_specular.dds"
+			shader = "PdxMeshTerraAlphaBlend"
+		}
+	}
+}
+
+#BOW############
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_hel_BOW_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_hel.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "hel_hull_01"
+			index = 0
+			texture_diffuse = "minmatar_01_hel_01_diffuse.dds"
+			texture_normal = "minmatar_01_hel_01_normal.dds"
+			texture_specular = "minmatar_01_hel_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "hel_hull_02"
+			index = 0
+			texture_diffuse = "minmatar_01_hel_02_diffuse.dds"
+			texture_normal = "minmatar_01_hel_02_normal.dds"
+			texture_specular = "minmatar_01_hel_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "hel_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_hel_01_diffuse.dds"
+			texture_normal = "minmatar_01_hel_01_normal.dds"
+			texture_specular = "minmatar_01_hel_01_specular.dds"
+			shader = "PdxMeshClouds"
+		}
+	}
+}
+
+#########################################################################
+#####																#####
+##W##							TITAN								##W##
+#####																#####
+#########################################################################
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_ragnarok_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_ragnarok.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "ragnarok_hull_01"
+			index = 0
+			texture_diffuse = "minmatar_01_ragnarok_01_diffuse.dds"
+			texture_normal = "minmatar_01_ragnarok_01_normal.dds"
+			texture_specular = "minmatar_01_ragnarok_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "ragnarok_hull_02"
+			index = 0
+			texture_diffuse = "minmatar_01_ragnarok_02_diffuse.dds"
+			texture_normal = "minmatar_01_ragnarok_02_normal.dds"
+			texture_specular = "minmatar_01_ragnarok_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "ragnarok_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_ragnarok_01_diffuse.dds"
+			texture_normal = "minmatar_01_ragnarok_01_normal.dds"
+			texture_specular = "minmatar_01_ragnarok_01_specular.dds"
+			shader = "PdxMeshClouds"
+		}
+	}
+}
+
+#STERN############
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_ragnarok_STERN_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_ragnarok.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "ragnarok_hull_01"
+			index = 0
+			texture_diffuse = "minmatar_01_ragnarok_01_diffuse.dds"
+			texture_normal = "minmatar_01_ragnarok_01_normal.dds"
+			texture_specular = "minmatar_01_ragnarok_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "ragnarok_hull_02"
+			index = 0
+			texture_diffuse = "minmatar_01_ragnarok_02_diffuse.dds"
+			texture_normal = "minmatar_01_ragnarok_02_normal.dds"
+			texture_specular = "minmatar_01_ragnarok_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "ragnarok_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_ragnarok_01_diffuse.dds"
+			texture_normal = "minmatar_01_ragnarok_01_normal.dds"
+			texture_specular = "minmatar_01_ragnarok_01_specular.dds"
+			shader = "PdxMeshTerraAlphaBlend"
+		}
+	}
+}
+
+#MID############
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_ragnarok_MID_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_ragnarok.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "ragnarok_hull_01"
+			index = 0
+			texture_diffuse = "minmatar_01_ragnarok_01_diffuse.dds"
+			texture_normal = "minmatar_01_ragnarok_01_normal.dds"
+			texture_specular = "minmatar_01_ragnarok_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "ragnarok_hull_02"
+			index = 0
+			texture_diffuse = "minmatar_01_ragnarok_02_diffuse.dds"
+			texture_normal = "minmatar_01_ragnarok_02_normal.dds"
+			texture_specular = "minmatar_01_ragnarok_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "ragnarok_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_ragnarok_01_diffuse.dds"
+			texture_normal = "minmatar_01_ragnarok_01_normal.dds"
+			texture_specular = "minmatar_01_ragnarok_01_specular.dds"
+			shader = "PdxMeshTerraAlphaBlend"
+		}
+	}
+}
+
+#BOW############
+
+objectTypes = {
+	pdxmesh = {
+		name = "minmatar_01_ragnarok_BOW_mesh"
+		file = "gfx/models/ships/minmatar_01/minmatar_01_ragnarok.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "ragnarok_hull_01"
+			index = 0
+			texture_diffuse = "minmatar_01_ragnarok_01_diffuse.dds"
+			texture_normal = "minmatar_01_ragnarok_01_normal.dds"
+			texture_specular = "minmatar_01_ragnarok_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "ragnarok_hull_02"
+			index = 0
+			texture_diffuse = "minmatar_01_ragnarok_02_diffuse.dds"
+			texture_normal = "minmatar_01_ragnarok_02_normal.dds"
+			texture_specular = "minmatar_01_ragnarok_02_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "ragnarok_planes"
+			index = 0
+			texture_diffuse = "minmatar_01_ragnarok_01_diffuse.dds"
+			texture_normal = "minmatar_01_ragnarok_01_normal.dds"
+			texture_specular = "minmatar_01_ragnarok_01_specular.dds"
+			shader = "PdxMeshClouds"
+		}
+	}
+}

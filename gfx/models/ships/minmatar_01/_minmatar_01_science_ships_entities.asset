@@ -1,0 +1,35 @@
+@science_scale = 3.0
+@science_physical_scale = 0.55
+
+########## SCIENCE SHIP ########## 
+
+entity = {
+	name = "minmatar_01_science_entity"
+	pdxmesh = "molluscoid_01_corvette_frame_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"	 animation = "idle" animation_blend_time = 4 }
+	state = { name = "moving"	animation = "idle" animation_blend_time = 2 }
+	state = { name = "death" animation = "death3" animation_blend_time = 0.0 chance = 1 looping = no 
+		event = { time = 4.63 node = "ship_main" particle = "large_ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
+	}
+	scale = @science_physical_scale
+			
+	game_data = {
+		size = @science_scale
+	}
+}
+
+entity = {
+	name = "minmatar_01_science_ship_entity"
+	pdxmesh = "minmatar_01_probe_mesh"
+
+	scale = @science_physical_scale
+			
+	game_data = {
+		size = @science_scale
+	}
+}
+
+
+

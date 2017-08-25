@@ -1,0 +1,7 @@
+CLD = {
+    portraits = {
+        "caldari"
+    }   
+    graphical_culture = caldari_01
+    move_pop_sound_effect = "moving_pop_confirmation"
+}
