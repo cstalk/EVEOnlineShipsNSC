@@ -6,7 +6,7 @@
 # FRAME
 
 entity = {
-	name = "minmatar_01_Frigate_entity"
+	name = "amarr_01_Frigate_entity"
 	pdxmesh = "molluscoid_01_destroyer_frame_mesh"
 
 	default_state = "idle"

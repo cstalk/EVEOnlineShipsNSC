@@ -162,7 +162,7 @@ entity = {
 
 entity = {
 	name = "amarr_01_Carrier_mid1_S4LHB_entity"
-	pdxmesh = "amarr_01_archon_MID_mesh"
+	pdxmesh = "amarr_01_aeon_MID_mesh"
   scale = @Carrier_physical_scale
 
 	locator = {

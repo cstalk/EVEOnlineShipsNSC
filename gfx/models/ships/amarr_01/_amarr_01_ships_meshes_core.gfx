@@ -765,6 +765,11 @@ objectTypes = {
 	}
 }
 
+#########################################################################
+#######                                                            ######
+#######               SUPER CARRIER                                ######
+#######                                                            ######
+#########################################################################
 
 objectTypes = {
 	pdxmesh = {
@@ -773,7 +778,16 @@ objectTypes = {
 		scale = @invis_scale
 
 		meshsettings = {
-			name = "aeon_hull"
+			name = "aeon_hull_01"
+			index = 0
+			texture_diffuse = "amarr_01_aeon_01_diffuse.dds"
+			texture_normal = "amarr_01_aeon_01_normal.dds"
+			texture_specular = "amarr_01_aeon_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "aeon_hull_02"
 			index = 0
 			texture_diffuse = "amarr_01_aeon_02_diffuse.dds"
 			texture_normal = "amarr_01_aeon_02_normal.dds"
@@ -792,7 +806,16 @@ objectTypes = {
 		scale = @invis_scale
 
 		meshsettings = {
-			name = "aeon_hull"
+			name = "aeon_hull_01"
+			index = 0
+			texture_diffuse = "amarr_01_aeon_01_diffuse.dds"
+			texture_normal = "amarr_01_aeon_01_normal.dds"
+			texture_specular = "amarr_01_aeon_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "aeon_hull_02"
 			index = 0
 			texture_diffuse = "amarr_01_aeon_02_diffuse.dds"
 			texture_normal = "amarr_01_aeon_02_normal.dds"
@@ -811,7 +834,16 @@ objectTypes = {
 		scale = @main_scale
 
 		meshsettings = {
-			name = "aeon_hull"
+			name = "aeon_hull_01"
+			index = 0
+			texture_diffuse = "amarr_01_aeon_01_diffuse.dds"
+			texture_normal = "amarr_01_aeon_01_normal.dds"
+			texture_specular = "amarr_01_aeon_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "aeon_hull_02"
 			index = 0
 			texture_diffuse = "amarr_01_aeon_02_diffuse.dds"
 			texture_normal = "amarr_01_aeon_02_normal.dds"
@@ -830,7 +862,16 @@ objectTypes = {
 		scale = @invis_scale
 
 		meshsettings = {
-			name = "aeon_hull"
+			name = "aeon_hull_01"
+			index = 0
+			texture_diffuse = "amarr_01_aeon_01_diffuse.dds"
+			texture_normal = "amarr_01_aeon_01_normal.dds"
+			texture_specular = "amarr_01_aeon_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "aeon_hull_02"
 			index = 0
 			texture_diffuse = "amarr_01_aeon_02_diffuse.dds"
 			texture_normal = "amarr_01_aeon_02_normal.dds"
