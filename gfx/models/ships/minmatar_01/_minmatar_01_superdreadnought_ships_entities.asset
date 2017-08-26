@@ -1,6 +1,5 @@
-@Superdreadnought_scale = 15.0
-
-@Superdreadnought_physical_scale = 0.5
+@Superdreadnought_scale = 20.0
+@Superdreadnought_physical_scale = 0.55
 
 ##################         	 DREADNOUGHT           ########################
 

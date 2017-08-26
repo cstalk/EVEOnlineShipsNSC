@@ -1,8 +1,5 @@
-
 @strikecruiser_scale = 7.0
-
-
-@strikecruiser_physical_scale = 0.4
+@strikecruiser_physical_scale = 0.35
 
 ##################         	 STRIKE CRUISER           ########################
 

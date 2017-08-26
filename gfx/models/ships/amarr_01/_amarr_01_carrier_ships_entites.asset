@@ -1,8 +1,5 @@
-@Carrier_scale = 13.0
-
-@Carrier_physical_scale = 0.5
-
-
+@Carrier_scale = 17.0
+@Carrier_physical_scale = 0.65
 
 ##################         	 CARRIER           ########################
 
@@ -163,7 +160,7 @@ entity = {
 entity = {
 	name = "amarr_01_Carrier_mid1_S4LHB_entity"
 	pdxmesh = "amarr_01_aeon_MID_mesh"
-  scale = @Carrier_physical_scale
+  scale = 0.7
 
 	locator = {
 		name = "strike_craft_locator_01"

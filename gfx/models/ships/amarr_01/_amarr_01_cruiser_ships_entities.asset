@@ -1,8 +1,5 @@
-
-@cruiser_scale = 6.0
-
-@cruiser_physical_scale = 0.5
-
+@cruiser_scale = 7.0
+@cruiser_physical_scale = 0.3
 
 #############################################################################
 ##################         	 CRUISER                 ########################

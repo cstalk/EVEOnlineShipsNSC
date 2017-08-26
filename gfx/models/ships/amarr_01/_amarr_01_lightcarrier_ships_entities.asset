@@ -1,7 +1,5 @@
-
-@LightCarrier_scale = 7.5
-
-@Lightcarrier_physical_scale = 0.5
+@LightCarrier_scale = 7.0
+@Lightcarrier_physical_scale = 0.4
 
 ##################         	 LIGHT CARRIER           ########################
 

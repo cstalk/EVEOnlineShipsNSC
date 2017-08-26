@@ -1,5 +1,5 @@
 @battleship_scale = 15.0
-@battleship_physical_scale = 0.7
+@battleship_physical_scale = 0.6
 
 #############################################################################
 ##################         	 BATTLESHIPS             ########################

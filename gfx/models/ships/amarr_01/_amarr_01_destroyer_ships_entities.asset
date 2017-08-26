@@ -1,10 +1,5 @@
-
-@destroyer_scale = 6.0
-
-
-
-@destroyer_physical_scale = 0.6
-
+@destroyer_scale = 7.0
+@destroyer_physical_scale = 0.5
 
 #############################################################################
 ##################         	 DESTROYER               ########################

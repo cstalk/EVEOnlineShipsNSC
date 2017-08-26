@@ -1,6 +1,5 @@
 @Flagship_scale = 30
-
-@Flagship_physical_scale = 0.5
+@Flagship_physical_scale = 1.0
 
 
 ##################         	 FLAGSHIP           ########################

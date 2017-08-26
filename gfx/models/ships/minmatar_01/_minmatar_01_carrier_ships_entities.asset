@@ -1,6 +1,5 @@
-@Carrier_scale = 15.0
-
-@Carrier_physical_scale = 0.7
+@Carrier_scale = 17.0
+@Carrier_physical_scale = 0.6
 
 
 
@@ -163,7 +162,7 @@ entity = {
 entity = {
 	name = "minmatar_01_Carrier_mid1_S4LHB_entity"
 	pdxmesh = "minmatar_01_hel_MID_mesh"
-  scale = 0.5
+  scale = 0.7
 
 	locator = {
 		name = "strike_craft_locator_01"
