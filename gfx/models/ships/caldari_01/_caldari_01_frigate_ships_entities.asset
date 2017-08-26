@@ -6,7 +6,7 @@
 # FRAME
 
 entity = {
-	name = "minmatar_01_Frigate_entity"
+	name = "caldari_01_Frigate_entity"
 	pdxmesh = "molluscoid_01_destroyer_frame_mesh"
 
 	default_state = "idle"
@@ -65,8 +65,8 @@ entity = {
 # BOW
 
 entity = {
-	name = "minmatar_01_Frigate_bow_L1_entity"
-	pdxmesh = "minmatar_01_thrasher_BOW_mesh"
+	name = "caldari_01_Frigate_bow_L1_entity"
+	pdxmesh = "caldari_01_thrasher_BOW_mesh"
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -82,8 +82,8 @@ entity = {
 }
 
 entity = {
-	name = "minmatar_01_Frigate_bow_M1S2_entity"
-	pdxmesh = "minmatar_01_thrasher_BOW_mesh"
+	name = "caldari_01_Frigate_bow_M1S2_entity"
+	pdxmesh = "caldari_01_cormorant_BOW_mesh"
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -98,8 +98,8 @@ entity = {
 }
 
 entity = {
-	name = "minmatar_01_Frigate_bow_S3_entity"
-	pdxmesh = "minmatar_01_thrasher_BOW_mesh"
+	name = "caldari_01_Frigate_bow_S3_entity"
+	pdxmesh = "caldari_01_cormorant_BOW_mesh"
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -116,7 +116,7 @@ entity = {
 # STERN
 
 entity = {
-	name = "minmatar_01_Frigate_stern_S2_entity"
+	name = "caldari_01_Frigate_stern_S2_entity"
 	pdxmesh = "empty_mesh"
 
 	default_state = "idle"
@@ -130,7 +130,7 @@ entity = {
 }
 
 entity = {
-	name = "minmatar_01_Frigate_stern_M1_entity"
+	name = "caldari_01_Frigate_stern_M1_entity"
 	pdxmesh = "empty_mesh"
 
 	default_state = "idle"
