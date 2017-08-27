@@ -1,6 +1,7 @@
 @Battlecruiser_scale = 15.0
 @Battlecruiser_physical_scale = 0.35
 
+
 #############################################################################
 ##################         	 BATTLECRUISER           ########################
 #############################################################################
@@ -11,7 +12,7 @@
 #############################################################################
 
 entity = {
-	name = "amarr_01_battlecruiser_entity"
+	name = "gallente_01_battlecruiser_entity"
 	pdxmesh = "arthropoid_01_battleship_frame_mesh"
 
 	default_state = "idle"
@@ -86,19 +87,19 @@ entity = {
 ########################
 
 entity = {
-	name = "amarr_01_Battlecruiser_bow_L1_entity"
+	name = "gallente_01_Battlecruiser_bow_L1_entity"
 	pdxmesh = "empty_mesh"
 
 }
 
 entity = {
-	name = "amarr_01_Battlecruiser_bow_M2_entity"
+	name = "gallente_01_Battlecruiser_bow_M2_entity"
 	pdxmesh = "empty_mesh"
 
 }
 
 entity = {
-	name = "amarr_01_Battlecruiser_bow_M1S2_entity"
+	name = "gallente_01_Battlecruiser_bow_M1S2_entity"
 	pdxmesh = "empty_mesh"
 
 }
@@ -107,8 +108,8 @@ entity = {
 ######     mid1     #####
 #########################
 entity = {
-	name = "amarr_01_Battlecruiser_mid1_M2S2_entity"
-	pdxmesh = "amarr_01_apocalypse_MID_mesh"
+	name = "gallente_01_Battlecruiser_mid1_M2S2_entity"
+	pdxmesh = "gallente_01_megathron_MID_mesh"
 
   scale = @Battlecruiser_physical_scale
 
@@ -116,8 +117,8 @@ entity = {
 }
 
 entity = {
-	name = "amarr_01_Battlecruiser_mid1_L1M1_entity"
-	pdxmesh = "amarr_01_apocalypse_MID_mesh"
+	name = "gallente_01_Battlecruiser_mid1_L1M1_entity"
+	pdxmesh = "gallente_01_megathron_MID_mesh"
 
   scale = @Battlecruiser_physical_scale
 
@@ -127,8 +128,8 @@ entity = {
 
 
 entity = {
-	name = "amarr_01_Battlecruiser_mid1_S2HB_entity"
-	pdxmesh = "amarr_01_apocalypse_MID_mesh"
+	name = "gallente_01_Battlecruiser_mid1_S2HB_entity"
+	pdxmesh = "gallente_01_megathron_MID_mesh"
 
   scale = @Battlecruiser_physical_scale
 
@@ -136,8 +137,8 @@ entity = {
 }
 
 entity = {
-	name = "amarr_01_Battlecruiser_mid1_M3_entity"
-	pdxmesh = "amarr_01_apocalypse_MID_mesh"
+	name = "gallente_01_Battlecruiser_mid1_M3_entity"
+	pdxmesh = "gallente_01_megathron_MID_mesh"
 
   scale = @Battlecruiser_physical_scale
 
@@ -148,25 +149,25 @@ entity = {
 ######     mid2     #####
 #########################
 entity = {
-	name = "amarr_01_Battlecruiser_mid2_M2S2_entity"
+	name = "gallente_01_Battlecruiser_mid2_M2S2_entity"
 	pdxmesh = "empty_mesh"
 
 }
 
 entity = {
-	name = "amarr_01_Battlecruiser_mid2_L1M1_entity"
+	name = "gallente_01_Battlecruiser_mid2_L1M1_entity"
 	pdxmesh = "empty_mesh"
 
 }
 
 entity = {
-	name = "amarr_01_Battlecruiser_mid2_S2HB_entity"
+	name = "gallente_01_Battlecruiser_mid2_S2HB_entity"
 	pdxmesh = "empty_mesh"
 
 }
 
 entity = {
-	name = "amarr_01_Battlecruiser_mid2_M3_entity"
+	name = "gallente_01_Battlecruiser_mid2_M3_entity"
 	pdxmesh = "empty_mesh"
 
 }
@@ -176,13 +177,13 @@ entity = {
 #########################
 
 entity = {
-	name = "amarr_01_Battlecruiser_stern_S2_entity"
+	name = "gallente_01_Battlecruiser_stern_S2_entity"
 	pdxmesh = "empty_mesh"
 
 }
 
 entity = {
-	name = "amarr_01_Battlecruiser_stern_M1_entity"
+	name = "gallente_01_Battlecruiser_stern_M1_entity"
 	pdxmesh = "empty_mesh"
 
 }

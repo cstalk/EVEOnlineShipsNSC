@@ -8,7 +8,7 @@
 ######################           Frame              ########################
 ############################################################################
 entity = {
-	name = "caldari_01_corvette_entity"
+	name = "gallente_01_corvette_entity"
 	pdxmesh = "molluscoid_01_corvette_frame_mesh"
 
 	 default_state = "idle"
@@ -58,8 +58,8 @@ entity = {
 ######################           Sections           ########################
 ############################################################################
 entity = {
-	name = "caldari_01_corvette_S3_entity"
-	pdxmesh = "caldari_01_kestrel_mesh"
+	name = "gallente_01_corvette_S3_entity"
+	pdxmesh = "gallente_01_incursus_mesh"
 
 	scale = @corvette_physical_scale
 
@@ -69,8 +69,8 @@ entity = {
 }
 
 entity = {
-	name = "caldari_01_corvette_S5_entity"
-	pdxmesh = "caldari_01_kestrel_mesh"
+	name = "gallente_01_corvette_S5_entity"
+	pdxmesh = "gallente_01_incursus_mesh"
 
 	scale = @corvette_physical_scale
 
@@ -80,8 +80,8 @@ entity = {
 }
 
 entity = {
-	name = "caldari_01_corvette_M1S1_entity"
-	pdxmesh = "caldari_01_kestrel_mesh"
+	name = "gallente_01_corvette_M1S1_entity"
+	pdxmesh = "gallente_01_incursus_mesh"
 
 	locator = {
 		name = "medium_gun_01"

@@ -12,7 +12,7 @@
 #############################################################################
 
 entity = {
-	name = "caldari_01_destroyer_entity"
+	name = "gallente_01_destroyer_entity"
 	pdxmesh = "molluscoid_01_destroyer_frame_mesh"
 
 	default_state = "idle"
@@ -65,8 +65,8 @@ entity = {
 #############################################################################
 
 entity = {
-	name = "caldari_01_destroyer_bow_M1S2_entity"
-	pdxmesh = "caldari_01_cormorant_BOW_mesh"
+	name = "gallente_01_destroyer_bow_M1S2_entity"
+	pdxmesh = "gallente_01_catalyst_BOW_mesh"
 
 	scale = @destroyer_physical_scale
 
@@ -76,8 +76,8 @@ entity = {
 }
 
 entity = {
-	name = "caldari_01_destroyer_bow_S3_entity"
-	pdxmesh = "caldari_01_cormorant_BOW_mesh"
+	name = "gallente_01_destroyer_bow_S3_entity"
+	pdxmesh = "gallente_01_catalyst_BOW_mesh"
 
 	scale = @destroyer_physical_scale
 
@@ -87,8 +87,8 @@ entity = {
 }
 
 entity = {
-	name = "caldari_01_destroyer_bow_L1_entity"
-	pdxmesh = "caldari_01_cormorant_BOW_mesh"
+	name = "gallente_01_destroyer_bow_L1_entity"
+	pdxmesh = "gallente_01_catalyst_BOW_mesh"
 
 	scale = @destroyer_physical_scale
 
@@ -101,8 +101,8 @@ entity = {
 ##################         	 STERN SECTIONS          ########################
 #############################################################################
 entity = {
-	name = "caldari_01_destroyer_stern_M1_entity"
-	pdxmesh = "caldari_01_cormorant_STERN_mesh"
+	name = "gallente_01_destroyer_stern_M1_entity"
+	pdxmesh = "gallente_01_catalyst_STERN_mesh"
 
 	scale = @destroyer_physical_scale
 
@@ -112,8 +112,8 @@ entity = {
 }
 
 entity = {
-	name = "caldari_01_destroyer_stern_S2_entity"
-	pdxmesh = "caldari_01_cormorant_STERN_mesh"
+	name = "gallente_01_destroyer_stern_S2_entity"
+	pdxmesh = "gallente_01_catalyst_STERN_mesh"
 
 	scale = @destroyer_physical_scale
 
